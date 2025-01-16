@@ -1,0 +1,11 @@
+<%- include('../includes/head.ejs') %>
+
+</head>
+<body>
+    <h1>Hello HotPot Admin - This is The ProfileList Page</h1>
+
+    <% profileList.map(profile => { %>
+        <h1><%=profile %></h1>
+    <% }) %>
+
+<%- include('../includes/end.ejs') %>
